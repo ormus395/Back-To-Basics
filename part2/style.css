@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  height: 70vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  max-width: 960px;
+  margin: 10px auto;
+  display: flex;
+}
+
+.aside-content {
+  height: 100%;
+  width: 30%;
+  padding: 10px;
+}
+
+.aside-content article {
+  height: 30%;
+  width: 100%;
+  background-color: crimson;
+  margin: 10px auto;
+}
+
+.main-content {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+}
+
+.main-content article {
+  width: 100%;
+  background-color: skyblue;
+  height: 30%;
+  margin: 10px auto;
+}
+footer {
+  background-color: yellow;
+  width: 960px;
+  height: 30%;
+  margin: 0 auto;
+}

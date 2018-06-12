@@ -1,0 +1,35 @@
+body {
+  background-color: rosybrown;
+  box-sizing: border-box;
+}
+
+#wrap {
+  background-color: blanchedalmond;
+  border: 5px dotted black;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  border-bottom: 5px dotted black;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+ul {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  text-transform: capitalize;
+  list-style: none;
+}
+
+li::first-letter {
+  font-size: 24px;
+}

@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  background-color: darkolivegreen;
+}
+
+li {
+  list-style: none;
+}
+
+#wrap {
+  background-color: darkkhaki;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  height: 150px;
+}
+
+#header h1 {
+  margin-right: 50px;
+}
+
+#nav {
+  background-color: darkgreen;
+  border-bottom: 2px dashed white;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#nav ul li {
+  margin: 5px 15px;
+  padding: 5px;
+}
+
+#sidebar {
+  float: right;
+  height: 100%;
+  /* background-color: darkkhaki; */
+}
+
+#content {
+  text-align: center;
+  background-color: forestgreen;
+  overflow: hidden;
+}

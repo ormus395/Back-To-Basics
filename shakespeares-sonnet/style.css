@@ -1,0 +1,26 @@
+body {
+  background-color: skyblue;
+}
+
+#wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+ul {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  text-transform: capitalize;
+  list-style: none;
+}
+
+li::first-letter {
+  font-size: 24px;
+}

@@ -1,0 +1,32 @@
+body {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+#wrap {
+  max-height: 500px;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#nav {
+  background-color: cyan;
+  padding: 25px;
+  margin-right: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+#content {
+  text-align: center;
+  background-color: darkturquoise;
+}
+
+#content li {
+  list-style: none;
+}
+
+.copyright {
+  position: fixed;
+}
