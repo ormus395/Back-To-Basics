@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: purple;
+}
+
+.main {
+  height: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 350px;
+}
+
+.section1 {
+  background-color: crimson;
+}
+
+.section2 {
+  background-color: orange;
+}
+.section3 {
+  background-color: greenyellow;
+}
